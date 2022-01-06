@@ -1,12 +1,14 @@
+
 .header {
-  /*  padding-top: 25px;
-  padding-bottom: 25px; */
   padding-top: 16px;
   padding-bottom: 16px;
+  width: 100%;
   border-bottom: 1px solid #eeeeee;
+  background-position: center;
+  background-size: cover;
   @media screen and (min-width: 768px) {
-   padding-top: 25px;
-   padding-bottom: 25px; 
+    padding-top: 25px;
+    padding-bottom: 25px; 
     } 
 }
 
@@ -26,8 +28,6 @@
 } 
 
 .header__list {
-  /* display: flex;
-  margin-left: 95px;  */
   display: none;
   @media screen and (min-width: 768px) {
   display: flex;
@@ -40,8 +40,6 @@
 }
 
 .header__list-connect{
-  /* display: flex;
-  margin-left: 95px;  */
   display: none;
   @media screen and (min-width: 768px) {
     display: flex;
@@ -208,12 +206,14 @@
   height: 100vh;
   padding-top: 48px;
   padding-bottom: 48px;
+  z-index: 1;
   .container{
     position: relative;
     display: flex;
     flex-direction: column;
     height: 100%;
     justify-content: space-between;
+    z-index: 1;
   }
 }
 

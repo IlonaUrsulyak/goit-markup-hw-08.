@@ -143,6 +143,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  @media screen and (min-width: 768px) {
+    flex-direction: column;
+    align-content: center;
+    }
   @media screen and (min-width: 1200px) {
   display: flex;
     flex-direction: row;
@@ -181,6 +185,9 @@
   @media screen and (min-width: 1200px) {
     width: 358px;
     }
+  @media screen and (min-width: 768px) {
+    width: 450px;
+    }
 }
 
 .footer__btn-mailing {
@@ -199,6 +206,7 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
+  margin: auto;
   margin-top: 20px;
   &:hover,
   &:focus {
@@ -221,7 +229,8 @@
     margin: 0 auto;
     } 
     @media screen and (min-width: 1200px) {
-      argin: 0 auto;
+      margin: 0 auto;
+      flex-direction: column;
       } 
 }  
 
@@ -233,7 +242,6 @@
   margin-bottom: 60px;
   @media screen and (min-width: 768px) {
     margin: 0;
-    margin-left: auto;
     }
   @media screen and (min-width: 1200px) {
       margin-left: 70px;
@@ -251,6 +259,11 @@
 
 .footer_wrap{
   @media screen and (min-width: 768px) {
-  margin-right: 75px;
+  margin-right: 165px;
+  margin-left: 82px;
     }
+    @media screen and (min-width: 1200px) {
+      margin-right: 75px;
+      margin-left: 0px;
+        }
 }
