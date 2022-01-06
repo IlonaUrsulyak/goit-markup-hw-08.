@@ -99,6 +99,7 @@
     &:last-child{
     margin: 0;}
     } 
+  
     @media screen and (min-width: 1200px) {
       width: 370px;
       margin: 0;
@@ -107,6 +108,9 @@
       &:nth-child(n +3) {
         margin-right: 0px;
       }
+      &:nth-child(2n + 2) {
+        margin-right: 30px;}
+        
       &:nth-child(n + 7) {
       margin-bottom: 0px;
     }  
